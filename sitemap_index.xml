@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<!-- Main page -->
+	<url>
+		<loc>https://www.urf.today/index.html</loc>
+		<lastmod>2023-12-9</lastmod>
+		<!-- Change to your actual last modified date -->
+		<changefreq>weekly</changefreq>
+		<priority>1.0</priority>
+	</url>
+</urlset>
