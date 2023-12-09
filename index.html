@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>where urf @?</title>
-<style>
-        body {
+    <title>Full Screen Image with Text</title>
+    <style>
+        body, html {
             margin: 0;
             padding: 0;
-            height: 100vh;
+            height: 100%;
+            width: 100%;
+        }
+        body {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            background-color: #000; /* Dark background */
+            align-items: center;
+            text-align: center;
+            background: 'background.jpg') no-repeat center center fixed; 
+            background-size: cover; /* Stretch and scale the image nicely */
             color: #fff; /* Light text color for contrast */
         }
         #hi {
-            font-size: 10em; /* Much larger font size */
+            font-size: 10em;
             font-weight: bold;
             font-family: 'Comic Sans MS', cursive, sans-serif;
-            margin: 10px;
-            text-shadow: 2px 2px 4px #000000;
+            text-shadow: 2px 2px 4px #000; /* Text shadow for better visibility */
         }
         #hello {
             font-size: 2em;
             align-self: flex-end;
-            margin: 10px;
+            text-shadow: 1px 1px 2px #000;
         }
     </style>
 </head>
