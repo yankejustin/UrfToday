@@ -3,9 +3,9 @@
 	<!-- Main page -->
 	<url>
 		<loc>https://www.urf.today/index.html</loc>
-		<lastmod>2023-12-9</lastmod>
+		<lastmod>2023-12-21</lastmod>
 		<!-- Change to your actual last modified date -->
-		<changefreq>weekly</changefreq>
+		<changefreq>daily</changefreq>
 		<priority>1.0</priority>
 	</url>
 </urlset>
